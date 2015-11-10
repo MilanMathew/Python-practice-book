@@ -1,7 +1,0 @@
-def unique(a):
-    c = []
-    for b in a:
-        if b not in c: c.append(b)
-    print c
-
-unique([1,2,1,3,2,5])
