@@ -10,4 +10,4 @@ if url.endswith('/'):
 else:
     basename = url.split('/')[-1]
 print 'Saving', url, 'as', basename + '.'
-urllib.urlretrieve(url, os.getcwd()+'/'+basename)
+urllib.urlretrieve(url, os.getcwd() + '/' + basename)
